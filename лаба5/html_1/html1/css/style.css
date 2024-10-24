@@ -1,0 +1,210 @@
+          *{padding:0;
+margin:0;
+border:0;}
+
+*,*:before,*:after{
+     moz-box-sizing: border-box;
+     webkit-box-sizing: border-box;
+     box-sizing: border-box;
+}
+
+:focus,:active{outline: none;}
+a:focus,:active{outline: none;}
+
+nav,footer,header,aside{display: block;}
+
+html,body{
+     height: 100%;
+     width:: 100%;
+font-size: 100%;
+line-height: 1;
+font-size: 14px;
+ms-text-size-adjust: 100%;
+moz-text-size-adjust: 100%;
+webkit-text-size-adjust: 100%;
+}
+
+input,button,textarea{font-family: inherit;}
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner{padding: 0;border: 0;}
+a,a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul, li {list-style-type: none;}
+img{vertical-align: top;}
+
+h1,h2,h3,h4,h5,h6{font-size: inherit; font-weight: 400;}   
+          
+
+
+
+
+
+
+           html,body {
+
+         
+              background-color: #B4D1F6;
+              color: #25408E
+;
+                font-family: Arial, Sans-Serif; /* Тип шрифта */
+                font-size: 16px; /* Размер текста в пикселях */
+                        }
+.header{
+     background: linear-gradient(to bottom,  #caf0fe, #0056d6);
+     text-align: center;
+     li{
+
+          display: inline;
+      }
+      ul{
+     font-family: Ronduit Capitals Light;
+     text-transform: uppercase;
+     list-style: none;
+     margin: 0;
+     padding: 15px;
+   } 
+   a{
+
+          font-size: 16px;
+          padding: 15px;
+          text-decoration: none;
+          color: black;
+
+       }    
+}       
+   
+
+           .photo{
+               display: flex;
+               align-items: flex-start;
+               img{
+               margin-right: 20px;
+               max-width: 100%; /* Ограничиваем ширину изображения */
+            height: auto; 
+            padding-bottom: 20px;
+           }  
+            border: 1x solid; 
+     padding: 10px; 
+     line-height: 30px;
+  
+     a{
+
+     font-size: 16px;
+            text-decoration: none; /* Убираем подчеркивание */
+            color: #007bff; /* Цвет текста */ 
+     }
+}  
+
+
+     .family{
+           text-indent: 20px;
+           line-height: 20px;
+           margin: 20px;
+h1{
+font-size: 30px;
+padding: 20px; 
+     }
+     p{
+margin-bottom: 15px; /* Отступ между абзацами */
+            text-align: justify;
+     }
+     img{
+          margin-bottom: 20px;
+     }
+}
+
+hr {
+            border: 0; /* Убираем стандартные границы */
+            height: 1.5px; /* Высота линии */
+            background-color:black; /* Цвет линии */
+            margin: 20px 0; /* Отступы сверху и снизу */
+        }
+
+.hobbi{
+      text-indent: 20px;
+           line-height: 20px;
+           margin: 20px;
+     h1{
+font-size: 30px;
+padding: 20px; 
+}
+
+ul{
+     color: black;
+    margin-bottom: 20px;
+    line-height: 30px; 
+    padding: 20px;
+    font-size: 18px; 
+    text-align: center;
+    font-style: italic;
+}
+
+margin-bottom: 20px;
+padding: 20px; 
+
+h2{
+     font-size: 20px;
+     text-transform: uppercase;
+     margin-bottom: 10px;
+}
+ p{
+margin-bottom: 15px; /* Отступ между абзацами */
+            text-align: justify;
+     }
+     hr{
+          height: 0.5px; /* Высота линии */
+            background-color:black; /* Цвет линии */
+            margin: 10px 10px;
+     }
+      img{
+          margin-bottom: 20px;
+     }
+}
+
+.facts{
+      text-indent: 20px;
+           line-height: 20px;
+           margin: 20px;
+h1{
+font-size: 30px;
+padding: 20px; 
+     }
+     p{
+margin-bottom: 15px; /* Отступ между абзацами */
+            text-align: justify;
+            color: black;
+     }
+     img{
+          margin-bottom: 20px;
+     }
+}
+
+details{
+     margin-bottom: 20px;
+}
+summary{
+      font-size: 20px; 
+      margin-bottom: 20px;
+
+}
+
+.galery{
+      text-indent: 20px;
+           line-height: 20px;
+           margin: 20px;
+h1{
+font-size: 30px;
+padding: 20px; 
+     }
+     p{
+margin-bottom: 15px; /* Отступ между абзацами */
+            text-align: justify;
+            color: black;
+     }
+     img{
+          margin-bottom: 20px;
+     }
+}
+
+}
